@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://getbootstrap.com/docs/4.1/examples/cover/ -->
+<!--
+    Draft dev code for website: vishnustrumpet.com
+    Version: 2
+    Updated: December 4th, 2018
+    Developer: Yardell Perkins, Perkitech (yardell@perkitech.com)
+-->
+
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="./images/vtlogo_538x535_PNG.png">
+
+  <title>Vishnu's Trumpet</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="./index_files/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <!-- Custom styles for this template -->
+    <link href="./index_files/cover.css" rel="stylesheet">
+    <link href="./index_files/customcss.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+      <!-- Begin Header Area Section -->
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand"> <img src="./images/vtlogo_538x535_PNG.png" alt="Vishnu's Temple Logo" width="40em" height="40em"></h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#aboutModal" data-toggle="modal" data-target="#aboutModal">About</a>
+            <a class="nav-link" href="#socialsModal" data-toggle="modal" data-target="#socialsModal">Socials</a>
+            <a class="nav-link" href="#playlistModal" data-toggle="modal" data-target="#playlistModal">Playlist</a>
+            <a class="nav-link" href="#loginModal" data-toggle="modal" data-target="#loginModal">Login</a>
+          </nav>
+        </div>
+      </header>
+      <!-- End Header Area Section -->
+
+      <!-- Begin Main Section -->
+      <main role="main" class="inner cover">
+        <!--
+        <h1 class="cover-heading">Cover your page.</h1>
+        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <p class="lead">
+          <a href="http://getbootstrap.com/docs/4.1/examples/cover/#" class="btn btn-lg btn-secondary">Learn more</a>
+        </p>
+        -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" height="400" width="400" src="./images/AlwaysNever_x800.jpg?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" height="400" width="400" src="./images/BoredBlackGuy.jpg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" height="400" width="400" src="./images/Mistakes_x800.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" height="400" width="400" src="./images/BrokeMan_x800.jpg?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <!-- Begin Bottom Controls -->
+        <div class="row controlsRow">
+          <div class="col-sm-3"><i class="fas fa-caret-left fa-2x"></i></div>
+          <div class="col-sm-3"><i class="fas fa-caret-right fa-2x"></i></div>
+          <div class="col-sm-6">999:99:99</div>
+        </div>
+        <!-- End Bottom Controls -->
+
+      </main>
+      <!-- End Main Section -->
+
+      <!-- Begin About Us Modal -->
+      <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">About Us</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!-- Begin About Us Modal Accordion -->
+              <div class="accordion" id="accordionExample">
+                <!-- Begin Card: Who is Vishnu -->
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Who is Vishnu?
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>Vishnu is one of the 3 high gods in the Hindu pantheon. Vishnu is the sustainer who self-incarnates in order to save the universe by purging evil & restoring cosmic order.</p>
+                      <p>Whenever righteousness wanes and unrighteousness increases I send myself forth. For the protection of the good and for the destruction of evil, and for the establishment of righteousness, I come into being age after age.<br> - Bhagavad Gita 4.7-8 </p>
+                      <p>On the ancient battlefields of India, warriors blew their horns to fire them up before they charged into battle.</p>
+                      <p>This is where the name Vishnu's Trumpet (aka the vt) comes from. </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: Who is Vishnu? -->
+
+                <!-- Begin Card: Mission Statement -->
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Mission Statement
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      The vt was built by a group of artists who were dissatisfied with the existing digital ecosystem & so built their own streaming service & artist-driven network. We are driven to build a better world for artists everywhere, as well as all beings across the universe.
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: Mission Statement-->
+
+                <!-- Begin Card: Artists Benefits-->
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Artist's Benefits
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>We have the only functional financial model in the music industry, built by & for artists. When we pay artists, we end up paying them more than all streaming services, combined. This is very enjoyable, and we are always working to increase our artist payments.</p>
+                      <p>We are also actively building our own artist promotion network as part of an artist collective.</p>
+                      <p>If you would like to schedule a featured release with us & join our collective, please inquire here:</p>
+                      <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdzHNLogo4GKzoX4UZ2R2mZ73224ugCOxcy1s5RyOf1N9stBg/viewform?usp=sf_link" target="_blank" role="button">Artist Submission Form</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: Artist's Benefits -->
+
+                <!-- Begin Card: Member's Benefits-->
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Member's Benefits
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>Do you love discovering new music & artists, but feel totally overwhelmed by the onslaught of content online today?</p>
+                      <p>We've created a simple, fun & intuitive new music discovery service for you.</p>
+                      <p>Each week we feature a new artist with an amazing album we think you'll enjoy listening to. Our community-curated release schedule is full of wonderful talent from a wide variety of genres. A lot of psych rock and underground hip hop, for sure, but also indian classical jazz fusion and arthouse EDM and all kinds of crazy junk in between. We like finding music & artists who create sounds & craft music that is evocative of our world today & helps us cope. Positive vibes, positive sounds, positive minds.</p>
+                      <p>
+                        Club Member Benefits
+                        <ul>
+                          <li>Receive a new album every week from a different artist from a wide variety of genres</li>
+                          <li>Stream online as much as you like</li>
+                          <li>Download & keep the music. Members can download, keep & share the music through a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)</a> license</li>
+                          <li>Share it to your heart's content</li>
+                          <li>Explore our back catalog online & discover more amazing music</li>
+                          <li>Knowing that <em>you</em> are making a positive difference in the music industry!!</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: Member's Benefits-->
+              </div>
+              <!-- End About Us Modal Accordion -->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Us Modal -->
+
+      <!-- Begin Socials Modal -->
+      <div class="modal fade" id="socialsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Socials</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Check us out on any of the platforms below</p>
+
+              <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="fab fa-instagram fa-3x"></i></p>
+                </div>
+                <div class="col-sm">
+                  Instagram<br>
+                  @vishnustrumpet
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="fab fa-twitter fa-3x"></i></p>
+                </div>
+                <div class="col-sm">
+                  Twitter<br>
+                  @vishnustrumpet
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="fab fa-facebook fa-3x"></i></p>
+                </div>
+                <div class="col-sm">
+                  Facebook<br>
+                  @vishnustrumpet
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Socials Modal -->
+
+      <!-- Begin Playlist Modal -->
+      <div class="modal fade" id="playlistModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Playlist</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!-- Track Row XX -->
+              <div class="row">
+                <div class="col-sm">
+                  ##
+                </div>
+                <div class="col-sm">
+                  Song
+                </div>
+                <div class="col-sm">
+                  Artist
+                </div>
+                <div class="col-sm">
+                  Genre
+                </div>
+              </div>
+              <!-- Track Row XX -->
+
+              <!-- Track Row XX -->
+              <hr>
+              <div class="row">
+                <div class="col-sm">
+                  ##
+                </div>
+                <div class="col-sm">
+                  Song
+                </div>
+                <div class="col-sm">
+                  Artist
+                </div>
+                <div class="col-sm">
+                  Genre
+                </div>
+              </div>
+              <!-- Track Row XX -->
+
+              <!-- Track Row XX -->
+              <hr>
+              <div class="row">
+                <div class="col-sm">
+                  ##
+                </div>
+                <div class="col-sm">
+                  Song
+                </div>
+                <div class="col-sm">
+                  Artist
+                </div>
+                <div class="col-sm">
+                  Genre
+                </div>
+              </div>
+              <!-- Track Row XX -->
+
+              <!-- Track Row XX -->
+              <hr>
+              <div class="row">
+                <div class="col-sm">
+                  ##
+                </div>
+                <div class="col-sm">
+                  Song
+                </div>
+                <div class="col-sm">
+                  Artist
+                </div>
+                <div class="col-sm">
+                  Genre
+                </div>
+              </div>
+              <!-- Track Row XX -->
+
+              <!-- Track Row XX -->
+              <hr>
+              <div class="row">
+                <div class="col-sm">
+                  ##
+                </div>
+                <div class="col-sm">
+                  Song
+                </div>
+                <div class="col-sm">
+                  Artist
+                </div>
+                <div class="col-sm">
+                  Genre
+                </div>
+              </div>
+              <!-- Track Row XX -->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Playlist Modal -->
+
+      <!-- Begin Login Modal -->
+      <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                 Username:<br>
+                 <input type="text" name="userName"><br><br>
+                 Password:<br>
+                 <input type="password" name="password"><br><br>
+                 <input type="submit" value="Login">
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Login Modal -->
+
+      <!-- Begin Privacy Policy Modal -->
+      <div class="modal fade" id="privacyPolicyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Privacy Policy</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!-- Begin Privacy Policy Modal Accordion -->
+              <div class="accordion" id="accordionExample">
+                <!-- Begin Card: Summary -->
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Summary
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>We respect the EU’s General Data Protection Regulations (GDPR) and this policy explains how we
+                        collect and treat any information you give us. You won’t find any complicated legal terms or
+                        long passages of unreadable text. We’ve no desire to trick you into agreeing to something you
+                        might later regret.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: Summary -->
+
+                <!-- Begin Card: Why We Value Your Privacy -->
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Why We Value Your Privacy
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>We value your privacy as much as we do our own, so we’re committed to keeping your personal and business information safe.</p>
+                      <p>We’re uncomfortable with the information companies, governments, and other organizations keep on file, so we ask for only the bare minimum from our customers.</p>
+                      <p>We’ll never use your personal information for any reason other than why you gave it, and we’ll never give anyone access to it unless we’re forced to by law.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: Why We Value Your Privacy -->
+
+                <!-- Begin Card: How We Collect Information -->
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        How We Collect Information
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>We ask for contact information including your name, email address, and phone number, on our website so that we can reply to your inquiry.</p>
+                      <p>Our website doesn’t use cookies or scripts that were designed to track the websites you visit. We don’t use analytics or native social media ‘like’ or ‘sharing’ buttons which also build profiles of your internet activity.</p>
+                      <p>We collect your email address when you sign up for one of our newsletters.</p>
+                      <p>We ask for your account and contact information when you hire or buy something from us.</p>
+                      <p>we protect it in exactly the same way as if you give it to us directly.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: How We Collect Information -->
+
+                <!-- Begin Card: What Information We Hold -->
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        What Information We Hold
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>When you contact us by email or through our website, we collect your name, email address, phone number, a social media username, and the company you work for, if you’ve given us that.</p>
+                      <p>If you sign up for a newsletter, we only collect your email address.</p>
+                      <p>When you buy something from us, we collect your name, email address, phone number, and a delivery address.</p>
+                      <p>If you do business with us, we also collect your business name and bank details and keep records of the invoices we send you and the payments you make.</p>
+                      <p>All purchases are processed by [PAYMENT PROCESSOR NAME - PROLLY STRIPE] ([PAYMENT PROCESSOR ADDRESS - PROLLY HTTPS://STRIPE.COM], our ecommerce platform and we never have access to your credit card information. </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: What Information We Hold -->
+
+                <!-- Begin Card: Where We Store Your Information -->
+                <div class="card">
+                  <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Where We Store Your Information
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>When you contact us by email or through our website, we store your your information in [INSERT CRM - PROLLY WORDPRESS] ([INSERT CRM ADDRESS - PROLLY HTTPS://WORDPRESS.ORG]), our Customer Relationship Management (CRM) software.</p>
+                      <p>If you sign up for a newsletter, we store your email address in [INSERT MAIL LIST BUILDER] ([INSERT MAIL LIST BUILDER ADDRESS]), which is the marketing platform we prefer.</p>
+                      <p>When you buy something, your information is stored in [PAYMENT PROCESSOR NAME - PROLLY STRIPE], our ecommerce platform, and if we do business, we store your information in our accounts software, [INSERT ACCOUNTING SOFTWARE - PROLLY FREEAGENT] ([INSERT ACCOUNTING SOFTWARE ADDRESS - PROLLY HTTPS://FREEAGENT.COM]).</p>
+                      <p>We chose these systems partly for their commitment to security.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: Where We Store Your Information -->
+
+                <!-- Begin Card: What We Use Your Information For -->
+                <div class="card">
+                  <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        What We Use Your Information For
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>We occasionally use your contact information to send you details of our products and services. When we do, you have the option to unsubscribe from these communications and we won’t send them to you again.</p>
+                      <p>We might also email or phone you about our products and services, but if you tell us not to, we won’t get in touch again.</p>
+                      <p>We will use your information to send you invoices, statements, or reminders.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: What We Use Your Information For -->
+
+                <!-- Begin Card: Who Manages Your Information -->
+                <div class="card">
+                  <div class="card-header" id="headingSeven">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        Who Manages Your Information
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>[NAME OF INFORMATION MANAGER], our [INSERT INFORMATION OFFICER TITLE - PROLLY CIO], is responsible for the security of your information.</p>
+                      <p>You can contact them by email at [INFORMATION OFFICER EMAIL] or by phone on [INFORMATION OFFICER PHONE] if you have any concerns about the information we store.</p>
+                      <p>Apart from the individual(s) above, only the people who need it have access.</p>
+                      <p>Our management team has access to everything you’ve provided, but individual employees have access to only what they need to do their jobs.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: Who Manages Your Information -->
+
+                <!-- Begin Card: What Protects Your Information -->
+                <div class="card">
+                  <div class="card-header" id="headingNine">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        What Protects Your Information
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>Where we store your information in third-party services, we restrict access only to people who need it. We store passwords in [INPUT PASSWORD MANAGER], an encrypted password manager, use a different, randomly generated password for each service, and never use the same password twice.</p>
+                      <p>The computers we use are all encrypted using [INPUT ENCRYPTION MANAGER] and are protected by a passcode or fingerprint access. These computers ask for authentication whenever they’re started or after 5 minutes of inactivity. Our mobile devices are also protected by a fingerprint or facial recognition.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: What Protects Your Information -->
+
+                <!-- Begin Card: How To Raise Questions or Comments -->
+                <div class="card">
+                  <div class="card-header" id="headingTen">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        How To Raise Questons/Comments
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>We take questions and concerns about your data very seriously.</p>
+                      <p>If you’d like to know more about the ways we handle your privacy, please contact [COMPLAINT CONTACT NAME] by email at [COMPLAINT CONTACT EMAIL] or by phone on [COMPLAINT CONTACT PHONE].</p>
+                      <p>If you’re the letter writing type, send your envelope to [COMPLAINT CONTACT SNAIL MAIL]</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: How To Raise Questions or Comments -->
+
+                <!-- Begin Card: Policy Changes -->
+                <div class="card">
+                  <div class="card-header" id="headingEleven">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                        Policy Changes
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <p>If we change the contents of this policy, those changes will become effective the moment we publish them on our website.</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Card: Policy Changes -->
+              </div>
+              <!-- End About Us Modal Accordion -->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Privacy Policy Modal -->
+
+      <!-- Begin Footer -->
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <!-- <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p> -->
+          <p>&copy 2019 - Mister Kite Entertainment Group - <a class="nav-link " href="#privacyPolicyModal" data-toggle="modal" data-target="#privacyPolicyModal">Privacy Policy</a>
+        </div>
+      </footer>
+      <!-- End Footer -->
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

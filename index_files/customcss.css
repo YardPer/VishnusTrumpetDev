@@ -1,0 +1,22 @@
+.masthead { margin-bottom: 1em; }
+
+main { margin: 1em 0; }
+
+.controlsRow { margin-top: 1em;}
+
+.modal-content {
+  color: black;
+}
+
+.modal-content a { color: blue; }
+.modal-content a .button { color: white; }
+
+.modal-content .card-header button {
+  text-shadow: 2px 2px cyan;
+  font-weight: bold;
+}
+
+.modal-content .card-body {
+  text-align: left;
+  font-weight: normal;
+}
